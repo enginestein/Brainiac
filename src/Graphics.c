@@ -2,10 +2,8 @@
 #include <stdlib.h>
 #include <GL/glew.h>
 #include <GLFW/glfw3.h>
+#include <GL/glu.h>  // Add this for gluPerspective on Windows
 #include "PhysicsEngine.h"
-
-/*gcc -o physics_engine.exe Graphics.c Vector3.c RigidBody.c Collision.c PhysicsEngine.c -lglfw3 -lopengl32 -lgdi32
-physics_engine.exe*/
 
 #define WINDOW_WIDTH 800
 #define WINDOW_HEIGHT 600
